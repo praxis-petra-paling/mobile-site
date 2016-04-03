@@ -1,0 +1,17 @@
+{
+  "name": "mobile-site",
+  "version": "1.0.0",
+  "description": "mobile site for petra-paling.de",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --update src/css:dist/css && babel src/js -d dist/js"
+  },
+  "author": "Christian Paling",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.6.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0"
+  }
+}
