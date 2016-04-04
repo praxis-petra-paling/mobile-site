@@ -3,4 +3,55 @@ body {
   margin: 0;
   padding: 0;
   background-color: $light-green;
+  font-size: $font-size-normal;
+}
+
+.small {
+  font-size: $font-size-small;
+}
+
+.large {
+  font-size: $font-size-large;
+}
+
+#page {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+#flower {
+  position: absolute;
+  width: 36%;
+  margin-top: -12%;
+}
+
+#leave {
+  position:absolute;
+  right: 0;
+  width: 64%;
+  margin-top: -12%;
+}
+
+#content {
+  position: relative;
+  padding: 8% 5% 10px 7%;
+  margin-top: 12%;
+  margin-left: 15px;
+}
+
+#content:before {
+  content: "";
+  width: $line-thickness;
+  height: 100%;
+  background-color: $white;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin-left: -15px;
+}
+
+#footer {
+  height: 100px;
+  width: 100%;
 }
