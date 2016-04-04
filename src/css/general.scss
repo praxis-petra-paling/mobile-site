@@ -10,12 +10,21 @@ p {
   color: $dark-green;
 }
 
+a {
+  font-size: 90%;
+  color: $dark-green;
+}
+
 .small {
   font-size: $font-size-small;
 }
 
 .large {
   font-size: $font-size-large;
+}
+
+.center {
+  text-align: center;
 }
 
 #page {
@@ -39,7 +48,7 @@ p {
 
 #content {
   position: relative;
-  padding: 8% 5% 10px 7%;
+  padding: 15% 5% 10px 7%;
   margin-top: 12%;
   margin-left: 5%;
   margin-bottom: 20px;
