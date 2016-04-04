@@ -6,6 +6,10 @@ body {
   font-size: $font-size-normal;
 }
 
+p {
+  color: $dark-green;
+}
+
 .small {
   font-size: $font-size-small;
 }
@@ -37,7 +41,8 @@ body {
   position: relative;
   padding: 8% 5% 10px 7%;
   margin-top: 12%;
-  margin-left: 15px;
+  margin-left: 5%;
+  margin-bottom: 20px;
 }
 
 #content:before {
@@ -48,10 +53,5 @@ body {
   display: inline-block;
   position: absolute;
   bottom: 0;
-  margin-left: -15px;
-}
-
-#footer {
-  height: 100px;
-  width: 100%;
+  margin-left: -5%;
 }
