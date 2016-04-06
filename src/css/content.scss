@@ -7,13 +7,16 @@
   margin-left: 5%;
   margin-bottom: 20px;
 
-  p {
+  p, ul, a {
     color: $dark-green;
   }
 
   a {
     font-size: 90%;
-    color: $dark-green;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
