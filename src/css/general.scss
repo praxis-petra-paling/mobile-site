@@ -6,15 +6,6 @@ body {
   font-size: $font-size-normal;
 }
 
-p {
-  color: $dark-green;
-}
-
-a {
-  font-size: 90%;
-  color: $dark-green;
-}
-
 .small {
   font-size: $font-size-small;
 }
@@ -64,6 +55,15 @@ a {
   margin-top: 12%;
   margin-left: 5%;
   margin-bottom: 20px;
+
+  p {
+    color: $dark-green;
+  }
+
+  a {
+    font-size: 90%;
+    color: $dark-green;
+  }
 }
 
 #content:before {
@@ -79,4 +79,24 @@ a {
 
 .content-wrap {
   padding-left: 10px;
+}
+
+#menu {
+  display: none;
+  position: relative;
+  padding: 7% 5% 10px 7%;
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  color: $dark-green;
+
+  hr {
+    color: $white;
+    background-color: $white;
+  }
+
+  a {
+    color: $dark-green;
+    text-decoration: none;
+  }
 }
