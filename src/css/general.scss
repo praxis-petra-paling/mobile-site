@@ -40,10 +40,18 @@ a {
 }
 
 #leave {
-  position:absolute;
+  position: absolute;
   right: 0;
   width: 64%;
   margin-top: -12%;
+}
+
+#menu {
+  position: absolute;
+  right: 5%;
+  margin-top: -7%;
+  width: 8%;
+  cursor: pointer;
 }
 
 #content {
@@ -63,4 +71,8 @@ a {
   position: absolute;
   bottom: 0;
   margin-left: -5%;
+}
+
+.content-wrap {
+  padding-left: 10px;
 }
