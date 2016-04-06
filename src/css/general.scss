@@ -27,76 +27,12 @@ body {
 #flower {
   position: absolute;
   width: 36%;
-  margin-top: -12%;
+  margin-top: -1 * $top-margin;
 }
 
 #leave {
   position: absolute;
   right: 0;
   width: 64%;
-  margin-top: -12%;
-}
-
-#open-menu, #close-menu {
-  position: absolute;
-  right: 5%;
-  margin-top: -7%;
-  width: 8%;
-  cursor: pointer;
-}
-
-#close-menu {
-  display: none;
-}
-
-#content {
-  position: relative;
-  padding: 15% 5% 10px 7%;
-  margin-top: 12%;
-  margin-left: 5%;
-  margin-bottom: 20px;
-
-  p {
-    color: $dark-green;
-  }
-
-  a {
-    font-size: 90%;
-    color: $dark-green;
-  }
-}
-
-#content:before {
-  content: "";
-  width: $line-thickness;
-  height: 100%;
-  background-color: $white;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  margin-left: -5%;
-}
-
-.content-wrap {
-  padding-left: 10px;
-}
-
-#menu {
-  display: none;
-  position: relative;
-  padding: 7% 5% 10px 7%;
-  margin-top: 12%;
-  margin-left: 5%;
-  margin-bottom: 20px;
-  color: $dark-green;
-
-  hr {
-    color: $white;
-    background-color: $white;
-  }
-
-  a {
-    color: $dark-green;
-    text-decoration: none;
-  }
+  margin-top: -1 * $top-margin;
 }

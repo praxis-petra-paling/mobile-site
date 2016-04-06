@@ -1,0 +1,33 @@
+/* content */
+
+#content {
+  position: relative;
+  padding: 15% 5% 10px 7%;
+  margin-top: $top-margin;
+  margin-left: 5%;
+  margin-bottom: 20px;
+
+  p {
+    color: $dark-green;
+  }
+
+  a {
+    font-size: 90%;
+    color: $dark-green;
+  }
+}
+
+#content:before {
+  content: "";
+  width: $line-thickness;
+  height: 100%;
+  background-color: $white;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin-left: -5%;
+}
+
+.content-wrap {
+  padding-left: 10px;
+}
