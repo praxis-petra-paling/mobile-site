@@ -1,15 +1,12 @@
 /* team */
 
+.team-wrap {
+  display: table;
+  width: 100%;
+}
+
 img#hansel {
   width: 50%;
   float: right;
   margin-left: 10px;
-}
-
-#personal-list {
-  padding-right: 10px;
-
-  ul {
-    padding-left: 10px;
-  }
 }
