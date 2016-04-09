@@ -6,7 +6,8 @@
     var response = confirm("Möchten Sie die Desktop Version öffnen?");
 
     if (response) {
-      window.href = "http://www.petra-paling.de";
+      console.log("clicked here");
+      window.location = "http://www.petra-paling.de";
     }
   }
 }());
