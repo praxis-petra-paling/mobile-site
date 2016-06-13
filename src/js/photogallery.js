@@ -4,14 +4,14 @@
 // build items array
   var items = [
     {
-      src: 'https://placekitten.com/600/400',
-      w: 600,
-      h: 400
+      src: 'images/Erstes.jpg',
+      w: 1000,
+      h: 1000
     },
     {
-      src: 'https://placekitten.com/1200/900',
-      w: 1200,
-      h: 900
+      src: 'images/Zweites.jpg',
+      w: 1000,
+      h: 1000
     }
   ];
 
