@@ -4,12 +4,12 @@
 // build items array
   var items = [
     {
-      src: 'images/Erstes.jpg',
+      src: 'images/praxis/Erstes.jpg',
       w: 1000,
       h: 1000
     },
     {
-      src: 'images/Zweites.jpg',
+      src: 'images/praxis/Zweites.jpg',
       w: 1000,
       h: 1000
     }
