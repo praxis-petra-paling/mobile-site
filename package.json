@@ -4,7 +4,9 @@
   "description": "mobile site for petra-paling.de",
   "main": "index.js",
   "scripts": {
-    "build": "sass --update src/css/styles.scss:dist/css/styles.css --style compressed && babel src/js -d dist/js --minified --no-comments"
+    "build:all": "npm run build:css && npm run build:js",
+    "build:css": "sass --update src/css/styles.scss:dist/css/styles.css --style compressed",
+    "build:js": "babel src/js -d dist/js --minified --no-comments"
   },
   "author": "Christian Paling",
   "license": "ISC",
