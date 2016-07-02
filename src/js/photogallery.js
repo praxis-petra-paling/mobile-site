@@ -23,30 +23,42 @@
       },
       {
         src: 'images/praxis/small/Viertes.jpg',
-        w: 750,
-        h: 1000,
-        title: 'Anmeldung'
+        w: 1000,
+        h: 750,
+        title: 'Spielecke'
       },
       {
         src: 'images/praxis/small/Fünftes.jpg',
         w: 750,
         h: 1000,
-        title: 'Sprechzimmer'
+        title: 'Anmeldung'
       },
       {
         src: 'images/praxis/small/Sechstes.jpg',
+        w: 1000,
+        h: 750,
+        title: 'Frau Hansel an der Anmeldung'
+      },
+      {
+        src: 'images/praxis/small/Siebtes.jpg',
+        w: 750,
+        h: 1000,
+        title: 'Sprechzimmer'
+      },
+      {
+        src: 'images/praxis/small/Achtes.jpg',
         w: 1000,
         h: 666,
         title: 'Sprechzimmer'
       },
       {
-        src: 'images/praxis/small/Siebtes.jpg',
+        src: 'images/praxis/small/Neuntes.jpg',
         w: 1000,
         h: 750,
         title: 'Sprechzimmer'
       },
       {
-        src: 'images/praxis/small/Achtes.jpg',
+        src: 'images/praxis/small/Zehntes.jpg',
         w: 750,
         h: 1000,
         title: 'Kindgerechte Ausstattung'
