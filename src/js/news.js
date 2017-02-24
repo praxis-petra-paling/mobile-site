@@ -1,6 +1,6 @@
 (function() {
   nanoajax.ajax({
-    url: 'http://www.homoeopathie-paling.de/_news.html',
+    url: '_news.html',
     method: 'GET',
     cors: true },
     (code, response) => {
