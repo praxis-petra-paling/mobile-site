@@ -37,7 +37,7 @@
         src: 'images/praxis/small/Sechstes.jpg',
         w: 1000,
         h: 750,
-        title: 'Frau Hansel an der Anmeldung'
+        title: 'Frau Fersch an der Anmeldung'
       },
       {
         src: 'images/praxis/small/Siebtes.jpg',
