@@ -9,9 +9,14 @@
     }
   );
 
-  var form = document.querySelector('form');
+  function toggleButton(value) {
+    document.querySelector('#form button[type="submit"]').disabled = value;
+  }
+
+  var form = document.querySelector('#form');
   form.addEventListener('submit', function(e) {
     e.preventDefault();
+    toggleButton(true);
 
     var firstname = document.querySelector('input[name="firstname"]').value;
     var lastname = document.querySelector('input[name="lastname"]').value;
@@ -42,6 +47,10 @@
           document.querySelector('p.success').style = 'display: none';
           document.querySelector('p.error').style = 'display: block';
         }
+
+        setTimeout(function() {
+          toggleButton(false); 
+        }, 2000);
       }
     );
   });
