@@ -1,10 +1,10 @@
 (function() {
   nanoajax.ajax({
-    url: '_news.html',
+    url: 'https://newsletter.homoeopathie-paling.de/api/news',
     method: 'GET',
     cors: true },
     (code, response) => {
-      var news = document.getElementById('news');
+      const news = document.getElementById('news');
       news.innerHTML = response;
     }
   );
@@ -49,7 +49,7 @@
         }
 
         setTimeout(function() {
-          toggleButton(false); 
+          toggleButton(false);
         }, 2000);
       }
     );
