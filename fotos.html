@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 
 <html lang="de">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -14,128 +14,130 @@
 
     <!-- Photoswipe Skin -->
     <link rel="stylesheet" type="text/css" href="vendor/css/default-skin.css" />
-</head>
-<body>
-<div id="page">
-    <img id="flower"     src="images/flower.jpg" />
-    <img id="leave"      src="images/leave.jpg" />
-    <img id="open-menu"  src="images/menu.png" />
-    <img id="close-menu" src="images/close.png" />
+  </head>
+  <body>
+    <div id="page">
+      <img id="flower"     src="images/flower.jpg" />
+      <img id="leave"      src="images/leave.jpg" />
+      <img id="open-menu"  src="images/menu.png" />
+      <img id="close-menu" src="images/close.png" />
 
-    <div id="content">
+      <div id="content">
         <div class="content-wrap">
 
-            <div class="thumbnail">
-                <img id="praxis" src="images/praxis/small/Achtes.jpg" />
-                <p>Praxis (10 Fotos)</p>
-            </div>
+          <div class="thumbnail">
+            <img id="praxis" src="images/praxis/small/Achtes.jpg" />
+            <p>Praxis (10 Fotos)</p>
+          </div>
 
-            <!-- Root element of PhotoSwipe. Must have class pswp. -->
-            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+          <!-- Root element of PhotoSwipe. Must have class pswp. -->
+          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-                <!-- Background of PhotoSwipe.
-                     It's a separate element as animating opacity is faster than rgba(). -->
-                <div class="pswp__bg"></div>
+            <!-- Background of PhotoSwipe.
+                 It's a separate element as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
 
-                <!-- Slides wrapper with overflow:hidden. -->
-                <div class="pswp__scroll-wrap">
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
 
-                    <!-- Container that holds slides.
-                        PhotoSwipe keeps only 3 of them in the DOM to save memory.
-                        Don't modify these 3 pswp__item elements, data is added later on. -->
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
+              <!-- Container that holds slides.
+                   PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                   Don't modify these 3 pswp__item elements, data is added later on. -->
+              <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+              </div>
+
+              <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+              <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                  <!--  Controls are self-explanatory. Order can be changed. -->
+
+                  <div class="pswp__counter"></div>
+
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                  <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
                     </div>
-
-                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                    <div class="pswp__ui pswp__ui--hidden">
-
-                        <div class="pswp__top-bar">
-
-                            <!--  Controls are self-explanatory. Order can be changed. -->
-
-                            <div class="pswp__counter"></div>
-
-                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                            <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip"></div>
-                        </div>
-
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                        </button>
-
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                        </button>
-
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center"></div>
-                        </div>
-
-                    </div>
-
+                  </div>
                 </div>
 
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+                </div>
+
+              </div>
+
             </div>
 
+          </div>
+
         </div>
+      </div>
+
+      <div id="menu">
+        <a href="index.html"><h2>Startseite</h2></a>
+        <div class="separator"></div>
+        <a href="aktuelles.html"><h2>Aktuelles</h2></a>
+        <div class="separator"></div>
+        <a href="zur-person.html"><h2>Persönliches</h2></a>
+        <div class="separator"></div>
+        <a href="zur-praxis.html"><h2>Zur Praxis</h2></a>
+        <div class="separator"></div>
+        <a href="team.html"><h2>Team</h2></a>
+        <div class="separator"></div>
+        <a href="klassisch.html"><h2>Homöopathie</h2></a>
+        <div class="separator"></div>
+        <a href="verfahren.html"><h2>Weitere Verfahren</h2></a>
+        <div class="separator"></div>
+        <a href="aufstehen.html"><h2>Aufstehen für Homöopathie</h2></a>
+        <div class="separator"></div>
+        <a href="corona.html"><h2>Corona und Impfung</h2></a>
+        <div class="separator"></div>
+        <a href="links.html"><h2>Links</h2></a>
+        <div class="separator"></div>
+        <a href="fotos.html"><h2>Fotos</h2></a>
+        <div class="separator"></div>
+        <a href="nuetzliches.html"><h2>Nützliches</h2></a>
+        <div class="separator"></div>
+        <a href="kontakt.html"><h2>Anfahrt</h2></a>
+        <div class="separator"></div>
+        <a href="datenschutz.html"><h2>Datenschutzerklärung</h2></a>
+        <div class="separator"></div>
+        <a href="impressum.html"><h2>Impressum</h2></a>
+        <div class="separator"></div>
+        <a href="http://www.petra-paling.de"><h2>Desktop Version</h2></a>
+      </div>
     </div>
 
-    <div id="menu">
-      <a href="index.html"><h2>Startseite</h2></a>
-      <div class="separator"></div>
-      <a href="aktuelles.html"><h2>Aktuelles</h2></a>
-      <div class="separator"></div>
-      <a href="zur-person.html"><h2>Persönliches</h2></a>
-      <div class="separator"></div>
-      <a href="zur-praxis.html"><h2>Zur Praxis</h2></a>
-      <div class="separator"></div>
-      <a href="team.html"><h2>Team</h2></a>
-      <div class="separator"></div>
-      <a href="klassisch.html"><h2>Homöopathie</h2></a>
-      <div class="separator"></div>
-      <a href="verfahren.html"><h2>Weitere Verfahren</h2></a>
-      <div class="separator"></div>
-      <a href="aufstehen.html"><h2>Aufstehen für Homöopathie</h2></a>
-      <div class="separator"></div>
-      <a href="links.html"><h2>Links</h2></a>
-      <div class="separator"></div>
-      <a href="fotos.html"><h2>Fotos</h2></a>
-      <div class="separator"></div>
-      <a href="nuetzliches.html"><h2>Nützliches</h2></a>
-      <div class="separator"></div>
-      <a href="kontakt.html"><h2>Anfahrt</h2></a>
-      <div class="separator"></div>
-      <a href="datenschutz.html"><h2>Datenschutzerklärung</h2></a>
-      <div class="separator"></div>
-      <a href="impressum.html"><h2>Impressum</h2></a>
-      <div class="separator"></div>
-      <a href="http://www.petra-paling.de"><h2>Desktop Version</h2></a>
-    </div>
-  </div>
+    <!-- Photoswipe -->
+    <script src="vendor/js/photoswipe.min.js"></script>
+    <script src="vendor/js/photoswipe-ui-default.min.js"></script>
 
-  <!-- Photoswipe -->
-  <script src="vendor/js/photoswipe.min.js"></script>
-  <script src="vendor/js/photoswipe-ui-default.min.js"></script>
-
-  <script src="dist/js/navbar.js"></script>
-  <script src="dist/js/photogallery.js"></script>
-</body>
+    <script src="dist/js/navbar.js"></script>
+    <script src="dist/js/photogallery.js"></script>
+  </body>
 </html>
